@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins';
+}
+#support-image{
+    width:20%;
+    float:right;
+}
+#support-image img{
+    width:200px;
+    height:200px;
+    margin-top:10px;
+}
+#title{
+    margin-right:310px;
+    margin-left:290px;
+    margin-top:-150px;
+    padding-bottom:100px;
+}
+#title h1{
+    background-color: linear-gradient(rgb(6, 171, 247), rgb(180, 55, 253));
+    font-size:2.5em;
+    text-align: center;
+}
+#title img{
+    width:600px;
+    height:140px;
+    margin-left:370px;
+}
+.button{
+    margin-bottom:30px;
+    width:20%;
+    margin-left:210px;
+    margin-top:-195px;
+}
+.button #go-button{
+    width:100%;
+    height:60px;
+    border-radius: 50%;
+    background-color:rgb(6, 171, 247);
+    color:rgb(253, 252, 252);
+    font-size:2.2em;
+    font-weight: bolder;
+    border:none;
+}
+.button #go-button:hover{
+  
+    background-color:rgb(179, 6, 247);
+    border:none;
+}
+#support-image2{
+    width:20%;
+}
+#support-image2 img{
+    width:200px;
+    height:200px;
+    margin-top:10px;
+    margin-left:60px;
+}
+
+#divider{
+    width:80%;
+    margin-left:125px;
+    margin-top:80px;
+    border-top:1px solid rgb(202, 191, 191);
+}
+#pointer{
+    width:7%;
+    margin-left:600px;
+    margin-top:5px;
+}
+#pointer{
+    border-radius:70%;
+    border:2px solid black;
+}
+#pointer a img{
+    width:70px;
+    height:70px;
+    margin-left:10px;
+    border-radius:50%;
+}
+#pointer a{
+    transition:all 300ms;
+}
+
+#description{
+    width:100%;
+   /* background-image:url("../img/precioxd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;*/
+    background-color:rgb(29, 27, 27);
+    
+    
+}
+.indicators{
+    text-align:center;
+}
+#white-space{
+    width:90%;
+    background-color:rgba(95, 223, 255, 0.856);
+    margin-left:55px;
+}
+#definicion{
+    margin-top:100px;
+}
+#definicion h1{
+    margin-left:50px;
+    font-size:2.5em;
+    margin-top:30px;
+    color:white;
+}
+.paragraph-d{
+    background-color:rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.paragraph-d .text-description{
+    width:55%;
+    margin-left:500px;
+    display:inline-block;
+}
+.paragraph-d .text-description p{
+    padding:10px;
+    text-align:justify;
+    margin-top:-300px;
+}
+.paragraph-d .image1{
+    width:300px;
+    height:200px;
+    margin-left:150px;
+    display:inline-block;
+    
+}
+.paragraph-d .image1 img{
+    width:100%;
+    height:200px;
+}
+.paragraph-d .image2{
+    width:300px;
+    height:200px;
+    margin-left:800px;
+    display:inline-block;
+}
+.paragraph-d .image2 img{
+    width:100%;
+    height:200px;
+}
+.paragraph-d .text-description2{
+    width:55%;
+    margin-left:50px;
+    margin-top:50px;
+    display:inline-block;
+}
+.paragraph-d .text-description2 p{
+    padding:10px;
+    text-align:justify;
+    margin-top:-300px;
+}
+.paragraph-d .text-description3{
+    width:100%;
+    margin-top:150px;
+    display:inline;
+}
+.paragraph-d .text-description3 p{
+    padding:10px;
+    text-align:justify;
+    margin-bottom:50px;
+}
+#paragraph-p{
+    width:90%;
+}
+.bored-image{
+    width:100%;
+    background:radial-gradient(rgb(47, 245, 252),rgb(47, 51, 252) );
+    height:1000px;
+}
+.bored-image img{
+    max-width:50%;
+    height:500px;
+    margin-top:120px;
+}
+#man{
+    animation: boredMan 2s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+/*.bored-image img:hover{
+    transition: all 300ms;
+    transform:scale(1.1);
+}*/
+@keyframes boredMan{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform:rotateZ(20deg);
+    }
+}
+
+.bored-image .text-bored{
+    width:40%;
+    margin-left:720px;
+    position:relative;
+    bottom:500px;
+}
+.bored-image .text-bored h1{
+    text-align:center;
+    color:white;
+}
+.bored-image .text-bored p{
+    text-align:justify;
+    color:white;
+    position:relative;
+    margin-right:30px;
+    top:100px;
+    font-size:20px;
+}
+.bored-image .text-bored a{
+    text-decoration: none;
+    color:rgb(220, 133, 20);
+    font-weight: 800;
+    
+}
+
+.person{
+    width:300px;
+    height:400px;
+    position:relative;
+    background-color:white;
+    border-radius:20px;
+    margin-left:20px;
+    display: inline-block;
+    margin-top:20px;
+    margin-left:200px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.person .img{
+    width:auto;
+    height:150px;
+}
+.person .img img{
+    width:100%;
+    height:150px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+}
+.person .text{
+    width:100%;
+    border-bottom:gray 1px solid;
+}
+.person .text h4{
+    text-align:center;
+    padding-bottom:2px;
+}
+.person .p-personajes{
+    height:200px;
+    overflow-y: scroll;
+    margin:5px 3px;
+}
+.person .p-personajes::-webkit-scrollbar{
+    width:8px;
+    border-radius:15px;
+}
+.person .p-personajes::-webkit-scrollbar-thumb{
+    background:rgb(230, 230, 230);
+    border-radius:15px;
+}
+#divisor{
+    margin-left:185px;
+    margin-top:30px;
+    width:70%;
+    border-top:1px gray solid;
+}
+#meme-container{
+    margin-top:50px;
+}
+#memes{
+    margin-top:80px;
+    text-align:center;
+    margin-bottom:50px;
+}
+.meme{
+    display:inline-block;
+}
+.meme img{
+    width:500px;
+    height:500px;
+}
+#footer{
+    width:100%;
+    background-color:black;
+    color:white;
+}
+#footer h1{
+    text-align:center;
+}
+#footer p{
+    text-align:center;
+}
+
+
+
+
